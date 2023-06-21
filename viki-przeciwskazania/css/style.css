@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display SC", serif;
+}
+
+.main {
+  width: 100%;
+  background-image: url("/img/wall.jpg");
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.main__hero-text {
+  margin: 50px 0 0 0;
+}
+.main__hero-text--header {
+  font-size: 3.6em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main__hero-text--head {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2.6em;
+}
+.main__hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: -5;
+}
+.main__box-content {
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+}
+.main__box-content--heading {
+  font-weight: bold;
+  font-size: 2.2em;
+  margin: 30px;
+}
+.main__box-content__list {
+  color: #f3eded;
+  text-transform: lowercase;
+  text-align: left;
+  font-size: 1.7em;
+  margin: 20px;
+}
+.main__box-content__list--item {
+  padding: 5px;
+}
+.main__box-footer {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main__box-footer--text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-align: center;
+}
+.main__box-footer--text i {
+  padding: 0 5px;
+  font-size: 1.6em;
+}/*# sourceMappingURL=style.css.map */
